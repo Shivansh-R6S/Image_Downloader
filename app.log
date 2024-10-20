@@ -1,0 +1,87 @@
+2024-10-21 01:11:12,159 - app - INFO - Processing request - Query: gojo, Limit: 10, Email: shivansh50810@gmail.com
+2024-10-21 01:11:12,160 - app - INFO - Downloading images for query: gojo, limit: 10
+2024-10-21 01:11:13,099 - app - ERROR - Could not download image 1: Invalid URL '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif': No scheme supplied. Perhaps you meant https:///images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif?
+2024-10-21 01:11:13,101 - app - ERROR - Could not download image 2: No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+2024-10-21 01:11:13,497 - app - INFO - Downloaded image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:11:13,777 - app - INFO - Downloaded image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:11:14,002 - app - INFO - Downloaded image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:11:14,284 - app - INFO - Downloaded image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:11:14,632 - app - INFO - Downloaded image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:11:14,904 - app - INFO - Downloaded image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:11:15,212 - app - INFO - Downloaded image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:11:15,626 - app - INFO - Downloaded image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:11:15,627 - app - INFO - Downloaded 8 images
+2024-10-21 01:11:15,628 - app - INFO - Creating zip file for query: gojo
+2024-10-21 01:11:15,733 - app - INFO - Zip file created: downloads\gojo_images.zip
+2024-10-21 01:11:15,734 - app - INFO - Sending email to: shivansh50810@gmail.com
+2024-10-21 01:11:18,647 - app - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e5ad3678desm1925089a91.23 - gsmtp')
+2024-10-21 01:11:18,650 - app - INFO - Removed image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:11:18,652 - app - INFO - Removed image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:11:18,653 - app - INFO - Removed image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:11:18,658 - app - INFO - Removed image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:11:18,659 - app - INFO - Removed image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:11:18,661 - app - INFO - Removed image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:11:18,663 - app - INFO - Removed image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:11:18,665 - app - INFO - Removed image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:11:18,668 - app - INFO - Removed zip file: downloads\gojo_images.zip
+2024-10-21 01:13:16,474 - app - INFO - Processing request - Query: gojo, Limit: 10, Email: shivansh50810@gmail.com
+2024-10-21 01:13:16,478 - app - INFO - Downloading images for query: gojo, limit: 10
+2024-10-21 01:13:17,010 - app - ERROR - Could not download image 1: Invalid URL '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif': No scheme supplied. Perhaps you meant https:///images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif?
+2024-10-21 01:13:17,013 - app - ERROR - Could not download image 2: No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+2024-10-21 01:13:17,139 - app - INFO - Downloaded image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:13:17,256 - app - INFO - Downloaded image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:13:17,378 - app - INFO - Downloaded image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:13:17,506 - app - INFO - Downloaded image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:13:17,628 - app - INFO - Downloaded image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:13:17,758 - app - INFO - Downloaded image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:13:17,878 - app - INFO - Downloaded image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:13:18,005 - app - INFO - Downloaded image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:13:18,006 - app - INFO - Downloaded 8 images
+2024-10-21 01:13:18,008 - app - INFO - Creating zip file for query: gojo
+2024-10-21 01:13:18,036 - app - INFO - Zip file created: downloads\gojo_images.zip
+2024-10-21 01:13:18,037 - app - INFO - Sending email to: shivansh50810@gmail.com
+2024-10-21 01:13:20,934 - app - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7eaeab638c5sm1612315a12.55 - gsmtp')
+2024-10-21 01:13:20,936 - app - INFO - Removed image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:13:20,938 - app - INFO - Removed image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:13:20,939 - app - INFO - Removed image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:13:20,941 - app - INFO - Removed image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:13:20,943 - app - INFO - Removed image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:13:20,945 - app - INFO - Removed image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:13:20,947 - app - INFO - Removed image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:13:20,949 - app - INFO - Removed image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:13:20,951 - app - INFO - Removed zip file: downloads\gojo_images.zip
+2024-10-21 01:14:33,260 - app - INFO - Processing request - Query: gojo, Limit: 10, Email: syadav_be22@thapar.edu
+2024-10-21 01:14:33,261 - app - INFO - Downloading images for query: gojo, limit: 10
+2024-10-21 01:14:34,138 - app - ERROR - Could not download image 1: Invalid URL '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif': No scheme supplied. Perhaps you meant https:///images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif?
+2024-10-21 01:14:34,252 - app - INFO - Downloaded image: downloads\gojo\gojo_2.jpg
+2024-10-21 01:14:34,374 - app - INFO - Downloaded image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:14:34,484 - app - INFO - Downloaded image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:14:34,626 - app - INFO - Downloaded image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:14:34,746 - app - INFO - Downloaded image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:14:34,864 - app - INFO - Downloaded image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:14:34,974 - app - INFO - Downloaded image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:14:35,091 - app - INFO - Downloaded image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:14:35,208 - app - INFO - Downloaded image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:14:35,209 - app - INFO - Downloaded 9 images
+2024-10-21 01:14:35,210 - app - INFO - Creating zip file for query: gojo
+2024-10-21 01:14:35,250 - app - INFO - Zip file created: downloads\gojo_images.zip
+2024-10-21 01:14:35,251 - app - INFO - Sending email to: syadav_be22@thapar.edu
+2024-10-21 01:14:38,443 - app - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e5ad5107f3sm1916429a91.47 - gsmtp')
+2024-10-21 01:14:38,445 - app - INFO - Removed image: downloads\gojo\gojo_2.jpg
+2024-10-21 01:14:38,447 - app - INFO - Removed image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:14:38,449 - app - INFO - Removed image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:14:38,452 - app - INFO - Removed image: downloads\gojo\gojo_5.jpg
+2024-10-21 01:14:38,454 - app - INFO - Removed image: downloads\gojo\gojo_6.jpg
+2024-10-21 01:14:38,456 - app - INFO - Removed image: downloads\gojo\gojo_7.jpg
+2024-10-21 01:14:38,458 - app - INFO - Removed image: downloads\gojo\gojo_8.jpg
+2024-10-21 01:14:38,460 - app - INFO - Removed image: downloads\gojo\gojo_9.jpg
+2024-10-21 01:14:38,462 - app - INFO - Removed image: downloads\gojo\gojo_10.jpg
+2024-10-21 01:14:38,464 - app - INFO - Removed zip file: downloads\gojo_images.zip
+2024-10-21 01:15:49,407 - app - INFO - Processing request - Query: gojo, Limit: 4, Email: syadav_be22@thapar.edu
+2024-10-21 01:15:49,408 - app - INFO - Downloading images for query: gojo, limit: 4
+2024-10-21 01:15:50,235 - app - ERROR - Could not download image 1: Invalid URL '/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif': No scheme supplied. Perhaps you meant https:///images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif?
+2024-10-21 01:15:50,237 - app - ERROR - Could not download image 2: No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+2024-10-21 01:15:50,355 - app - INFO - Downloaded image: downloads\gojo\gojo_3.jpg
+2024-10-21 01:15:50,468 - app - INFO - Downloaded image: downloads\gojo\gojo_4.jpg
+2024-10-21 01:15:50,469 - app - INFO - Downloaded 2 images
+2024-10-21 01:15:50,471 - app - INFO - Creating zip file for query: gojo
